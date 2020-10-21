@@ -15,6 +15,15 @@
 		8A17AB27253E9B190060632A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A17AB25253E9B190060632A /* LaunchScreen.storyboard */; };
 		8A17AB32253E9B190060632A /* Sport_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A17AB31253E9B190060632A /* Sport_CompanionTests.swift */; };
 		8A17AB3D253E9B190060632A /* Sport_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A17AB3C253E9B190060632A /* Sport_CompanionUITests.swift */; };
+		8A205697253EC2450067FCAE /* ChooseFitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A205696253EC2440067FCAE /* ChooseFitnessViewController.swift */; };
+		8A20569C253EC6EA0067FCAE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20569B253EC6EA0067FCAE /* HomeViewController.swift */; };
+		8A2056A1253ECF420067FCAE /* ChooseTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2056A0253ECF420067FCAE /* ChooseTimingViewController.swift */; };
+		8A2056A6253F0FC40067FCAE /* FirstStartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2056A5253F0FC40067FCAE /* FirstStartupViewController.swift */; };
+		8A2056AE253F19A20067FCAE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2056AD253F19A20067FCAE /* TabBarViewController.swift */; };
+		8A2056B4253F1B2D0067FCAE /* OHCircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2056B3253F1B2D0067FCAE /* OHCircleSegue.swift */; };
+		8A3B05DD253FC9B0003A9E9F /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B05DC253FC9B0003A9E9F /* DevicesViewController.swift */; };
+		8A3B05F3253FDAB2003A9E9F /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B05F2253FDAB2003A9E9F /* TimeTableViewController.swift */; };
+		8A3B0603253FE79D003A9E9F /* TimingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B0602253FE79D003A9E9F /* TimingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		8A17AB38253E9B190060632A /* Sport CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sport CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A17AB3C253E9B190060632A /* Sport_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_CompanionUITests.swift; sourceTree = "<group>"; };
 		8A17AB3E253E9B190060632A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A205696253EC2440067FCAE /* ChooseFitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFitnessViewController.swift; sourceTree = "<group>"; };
+		8A20569B253EC6EA0067FCAE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A2056A0253ECF420067FCAE /* ChooseTimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTimingViewController.swift; sourceTree = "<group>"; };
+		8A2056A5253F0FC40067FCAE /* FirstStartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStartupViewController.swift; sourceTree = "<group>"; };
+		8A2056AD253F19A20067FCAE /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8A2056B3253F1B2D0067FCAE /* OHCircleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHCircleSegue.swift; sourceTree = "<group>"; };
+		8A3B05DC253FC9B0003A9E9F /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		8A3B05F2253FDAB2003A9E9F /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		8A3B0602253FE79D003A9E9F /* TimingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +121,18 @@
 				8A17AB1C253E9B160060632A /* SceneDelegate.swift */,
 				8A17AB1E253E9B160060632A /* ViewController.swift */,
 				8A17AB20253E9B160060632A /* Main.storyboard */,
+				8A3B05F2253FDAB2003A9E9F /* TimeTableViewController.swift */,
+				8A3B0602253FE79D003A9E9F /* TimingTableViewCell.swift */,
+				8A3B05DC253FC9B0003A9E9F /* DevicesViewController.swift */,
+				8A2056AD253F19A20067FCAE /* TabBarViewController.swift */,
+				8A20569B253EC6EA0067FCAE /* HomeViewController.swift */,
+				8A205696253EC2440067FCAE /* ChooseFitnessViewController.swift */,
+				8A2056A5253F0FC40067FCAE /* FirstStartupViewController.swift */,
+				8A2056A0253ECF420067FCAE /* ChooseTimingViewController.swift */,
 				8A17AB23253E9B190060632A /* Assets.xcassets */,
 				8A17AB25253E9B190060632A /* LaunchScreen.storyboard */,
 				8A17AB28253E9B190060632A /* Info.plist */,
+				8A2056B3253F1B2D0067FCAE /* OHCircleSegue.swift */,
 			);
 			path = "Sport Companion";
 			sourceTree = "<group>";
@@ -258,8 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2056AE253F19A20067FCAE /* TabBarViewController.swift in Sources */,
+				8A2056B4253F1B2D0067FCAE /* OHCircleSegue.swift in Sources */,
+				8A2056A6253F0FC40067FCAE /* FirstStartupViewController.swift in Sources */,
+				8A3B0603253FE79D003A9E9F /* TimingTableViewCell.swift in Sources */,
+				8A20569C253EC6EA0067FCAE /* HomeViewController.swift in Sources */,
+				8A205697253EC2450067FCAE /* ChooseFitnessViewController.swift in Sources */,
 				8A17AB1F253E9B160060632A /* ViewController.swift in Sources */,
+				8A3B05DD253FC9B0003A9E9F /* DevicesViewController.swift in Sources */,
 				8A17AB1B253E9B160060632A /* AppDelegate.swift in Sources */,
+				8A3B05F3253FDAB2003A9E9F /* TimeTableViewController.swift in Sources */,
+				8A2056A1253ECF420067FCAE /* ChooseTimingViewController.swift in Sources */,
 				8A17AB1D253E9B160060632A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sport Companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sport Companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
